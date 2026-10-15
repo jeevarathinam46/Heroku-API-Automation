@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="API AUtomation">
+
+    <test name="Booking Module">
+        <classes>
+            <class name="com.api.test.AuthCodeAPITest"/>
+            <class name="com.api.test.GetBookingIdAPITest"/>
+            <class name="com.api.test.CreateBookingAPITest"/>
+        </classes>
+    </test>
+
+</suite>
